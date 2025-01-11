@@ -1,0 +1,81 @@
+/* src/Login.css */
+
+body {
+    background-color: #f3f4f6; /* Warna latar belakang yang lembut */
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    width: 400px; /* Lebar kotak login */
+    margin: auto;
+    padding: 20px;
+    background-color: white; /* Latar belakang putih untuk kotak login */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    margin-top: 100px; /* Jarak atas */
+}
+
+h2 {
+    text-align: center; /* Tengah untuk judul */
+    font-size: 2rem; /* Ukuran font judul */
+    color: #333; /* Warna teks judul */
+    margin-bottom: 20px; /* Jarak bawah judul */
+}
+
+.input-group {
+    margin-bottom: 15px; /* Jarak antar input */
+}
+
+.input-group label {
+    display: block; /* Tampilkan label sebagai blok */
+    margin-bottom: 5px; /* Jarak bawah label */
+    font-weight: 600; /* Tebal untuk label */
+    color: #555; /* Warna teks label */
+}
+
+.input-group input {
+    width: 100%; /* Input mengambil lebar penuh */
+    padding: 10px; /* Padding untuk input */
+    border: 1px solid #ccc; /* Garis batas abu-abu */
+    border-radius: 4px; /* Sudut membulat */
+    font-size: 1rem; /* Ukuran font input */
+    transition: border-color 0.3s; /* Transisi untuk perubahan border */
+}
+
+.input-group input:focus {
+    border-color: #007bff; /* Warna border saat fokus */
+    outline: none; /* Hapus outline default */
+}
+
+.login-button {
+    width: 100%; /* Tombol mengambil lebar penuh */
+    padding: 10px; /* Padding untuk tombol */
+    background-color: #007bff; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Hapus batas default */
+    border-radius: 4px; /* Sudut membulat untuk tombol */
+    cursor: pointer; /* Tangan saat hover */
+    font-size: 1rem; /* Ukuran font tombol */
+    transition: background-color 0.3s; /* Transisi untuk perubahan latar belakang */
+}
+
+.login-button:hover {
+    background-color: #0056b3; /* Warna saat hover */
+}
+
+.message {
+    margin-top: 10px; /* Jarak atas untuk pesan */
+    color: #d9534f; /* Warna merah untuk pesan kesalahan */
+    font-weight: bold; /* Tebal untuk pesan */
+}
+
+.register-text {
+    margin-top: 20px; /* Jarak atas untuk teks registrasi */
+    text-align: center; /* Tengah untuk teks registrasi */
+}
+
+.register-link {
+    color: #007bff; /* Warna biru untuk link registrasi */
+    cursor: pointer; /* Tangan saat hover */
+    text-decoration: underline; /* Garis bawah untuk link */
+}
